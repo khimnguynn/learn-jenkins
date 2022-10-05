@@ -3,4 +3,4 @@ WORKDIR /app
 COPY . .
 RUN pip3 install flask
 EXPOSE 8080
-CMD ["python3", "app.py"]
+ENTRYPOINT ["python3", "app.py"]
